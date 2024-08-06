@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+     //Faça um algoritmo que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+   inteiro numero, nota
+   escreva("por favor, deigite uma nota ,entre 0 e 10: ")
+   leia(nota)
+      se (nota<0 ou nota >10)
+      {
+        escreva("nota invalida , por favor, insira uma nota de 0 a 10: ")
+        leia(nota)
+      }
+      escreva("parabens🥳🥳🥳")
+  }
+}
